@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div>
+        Scripts:
+        <div>
+            Grid.cs
+            Create grid on particular object
+            Grid allows building objects as tiles, and firther destructino in parts
+        </div>
+        <div>
+            GridItem.cs
+            a single object in a grid. its derived from Structure.cs, which contains necesary functions for breaking something down properly.
+            Does not conatin classes for demo grid generation
+
+        </div>
+        <div>
+            WorldGrid.cs
+            a single object in a grid. its derived from Structure.cs, which contains necesary functions for breaking something down properly.
+            Does not conatin classes for demo grid generation
+
+        </div>
+    </div>
+    <div>
+        Master object:
+        <div>
+            WorldGrid empty
+            root of all grids in scene
+            - Grid.cs !!!demo!!!
+                demo grid object generator
+            - WorldGrid.cs !!!Useless 100% so far!!!
+                master root controller for all grids
+
+        </div>
+    </div>
+    <div>
+        Demo:
+        <div>
+            FPS pack demo
+
+            Master object:
+            <div>
+                FPS
+                    Shoot.cs
+                        Fires by raycast, and triggers dustoff
+            </div>
+        </div>
+    </div>
+    Additional expansion GeometryUtility.CalculateFostrumPlanes - is object inside camera bounds
+</body>
+</html>

@@ -1,0 +1,18 @@
+﻿find how to make collider follow staff movement
+find how to make collider follow staff movement
+
+reduce collision box of staff to its actual size
+
+
+
+find fix camera for a DN-like movement
+it should move based on its target position, not on its own
+
+fix jitter when moving
+
+
+
+add animations (walk)
+
+
+prevent walking through walls
